@@ -27,10 +27,17 @@ Vue.prototype.isAuth = isAuth     // 权限方法
 window.SITE_CONFIG['storeState'] = cloneDeep(store.state)
 
 /* eslint-disable no-new */
+// new Vue({
+//   el: '#app',
+//   router,
+//   store,
+//   template: '<App/>',
+//   components: { App }
+// })
+
 new Vue({
-  el: '#app',
-  router,
-  store,
-  template: '<App/>',
-  components: { App }
-})
+    el: '#ap',
+    data:{
+      message:'hello Vue!'
+    }
+  })
